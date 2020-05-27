@@ -9,6 +9,9 @@
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
     crossorigin="anonymous" />
   <link rel="stylesheet" href="./styles.css" />
+  <script src="https://kit.fontawesome.com/a626dc55ea.js"
+    crossorigin="anonymous"></script>
+
   <title>Carrito</title>
 </head>
 
@@ -48,15 +51,24 @@
             class="carritoProductos dropdown-menu dropdown-menu-right dropdown-menu-left"
             aria-labelledby="navbarDropdown">
             <!--HEADER-->
-            <div class="row header-prod-carrito">
-              <div class="col-6">
-                <p class="ivc">X Mi Carrito</p>
-              </div>
-              <div class="col-6">
-                <div class="imgVaciar">
-                  <p class="ivc">Icon de vaciar-carrito</p>
+            <div class="row header-prod-carrito d-flex justify-content-between">
+              
+                <div>
+                  <button class="btnCerrarCarrito">
+                    <i class="fas fa-times fa-lg"></i>
+                  </button>
                 </div>
-              </div>
+               
+                <div>
+                  <p class="ivc">Mi Carrito</p>
+                </div>
+                <div>
+                  <button class="btnVaciarCarrito">
+                    <i class="fas fa-trash-alt fa-xl"></i>
+                </button>
+                </div>
+                
+
             </div>
             <hr />
             <!--PRODUCTOS-->
@@ -83,6 +95,8 @@
                       <div class="col-6 prod-botones align-self-center">
                         <button class="btne ">+</button>
                         <button class="btne ">-</button>
+                        <button class="btne ">x</button>
+
                       </div>
                     </div>
                   </div>
@@ -110,6 +124,8 @@
                       <div class="col-6 prod-botones align-self-center">
                         <button class="btne ">+</button>
                         <button class="btne ">-</button>
+                        <button class="btne ">x</button>
+
                       </div>
                     </div>
                   </div>
@@ -137,6 +153,7 @@
                       <div class="col-6 prod-botones align-self-center">
                         <button class="btne ">+</button>
                         <button class="btne ">-</button>
+                        <button class="btne ">x</button>
                       </div>
                     </div>
                   </div>
@@ -164,13 +181,14 @@
                       <div class="col-6 prod-botones align-self-center">
                         <button class="btne ">+</button>
                         <button class="btne ">-</button>
+                        <button class="btne ">x</button>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <hr />
-              
+
             </div>
             <!--PAGO DEL CARRITO (FOOTER)-->
             <div class="container bg-warning pt-2">

@@ -1,5 +1,5 @@
 /*Eliminar scroll horizontal*/
-body{
+body {
 }
 
 .navbar {
@@ -79,7 +79,7 @@ body{
   width: 100%; /*Ocupa el 100% del div de su padre*/
   margin: 0px;
 }
-.header-prod-carrito{
+.header-prod-carrito {
   height: 40px;
   background-color: rgb(32, 168, 202);
 }
@@ -92,17 +92,27 @@ body{
 
 .ivc {
   word-wrap: break-word; /*SALTE A OTRA LINEA SI NO CABE EN DIV*/
+  font-size: 18px;
+  display: inline;
+}
+.btnCerrarCarrito {
+  border-color: transparent;
+  background-color: transparent;
+}
+.btnVaciarCarrito {
+  border-color: transparent;
+  background-color: transparent;
 }
 
 .imgVaciar {
   background-color: yellow;
 }
 
-.card-productos-carrito{
+.card-productos-carrito {
   width: 100%;
 }
 
-.imgProdCarrito{
+.imgProdCarrito {
   padding: 0px;
   padding-left: 2px;
 }
@@ -115,14 +125,14 @@ body{
 .ivc-prod-cantidad {
   word-wrap: break-word; /*SALTE A OTRA LINEA SI NO CABE EN DIV*/
   margin: 0px;
-  font-size:11px;
+  font-size: 11px;
 }
 .prod-cantidad,
-.prod-botones{
-  padding:0px;
+.prod-botones {
+  padding: 0px;
 }
 
-.hr-prod{
+.hr-prod {
   margin-left: 4px;
   margin-right: 4px;
   margin-top: 8px;
@@ -134,28 +144,27 @@ body{
 }
 
 @media screen and (max-width: 325px) {
-  .productos-del-carrito{
+  .productos-del-carrito {
     height: 190px;
     overflow: auto;
   }
 }
 
-@media screen and (min-width: 325px)  {
-  .productos-del-carrito{
+@media screen and (min-width: 325px) {
+  .productos-del-carrito {
     height: 295px;
     overflow: auto;
   }
 }
 
-@media screen and (min-width: 1024px)  {
-  
-  .productos-del-carrito{
+@media screen and (min-width: 1024px) {
+  .productos-del-carrito {
     height: 390px;
     overflow: auto;
   }
 }
 
-hr{
+hr {
   margin-top: 3px;
   margin-bottom: 3px;
 }
@@ -198,15 +207,15 @@ hr{
   border-color: rgb(75, 72, 72);
 }
 
-.btne{
+.btne {
   background-color: rgb(53, 182, 21);
   border-color: transparent;
-  font-size: 10px;
+  font-size: 11px;
   border-radius: 20%;
 }
 
 /*FOOTER DE CARRITO*/
-.btnPagar{
+.btnPagar {
   background-color: rgb(100, 178, 230);
   border-color: transparent;
   border-radius: 20px;
@@ -224,6 +233,6 @@ hr{
   border-color: rgb(8, 79, 126);
 }
 
-p{
+p {
   margin: 0px;
 }
