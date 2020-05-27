@@ -1,4 +1,6 @@
 /*Eliminar scroll horizontal*/
+body{
+}
 
 .navbar {
   background-color: rgb(192, 191, 191);
@@ -131,9 +133,26 @@
   background-color: rgb(168, 168, 12);
 }
 
-.productos-del-carrito{
-  height: 380px;
-  overflow: auto;
+@media screen and (max-width: 325px) {
+  .productos-del-carrito{
+    height: 190px;
+    overflow: auto;
+  }
+}
+
+@media screen and (min-width: 325px)  {
+  .productos-del-carrito{
+    height: 295px;
+    overflow: auto;
+  }
+}
+
+@media screen and (min-width: 1024px)  {
+  
+  .productos-del-carrito{
+    height: 390px;
+    overflow: auto;
+  }
 }
 
 hr{
@@ -184,4 +203,27 @@ hr{
   border-color: transparent;
   font-size: 10px;
   border-radius: 20%;
+}
+
+/*FOOTER DE CARRITO*/
+.btnPagar{
+  background-color: rgb(100, 178, 230);
+  border-color: transparent;
+  border-radius: 20px;
+  font-size: 15px;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.btnPagar:hover,
+.btnPagar:active,
+.btnPagar:focus {
+  background-color: rgb(66, 146, 200);
+  color: black;
+  border-color: rgb(8, 79, 126);
+}
+
+p{
+  margin: 0px;
 }
