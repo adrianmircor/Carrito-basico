@@ -98,11 +98,31 @@ body {
 .btnCerrarCarrito {
   border-color: transparent;
   background-color: transparent;
+  border: 0px;
+}
+.btnCerrarCarrito:hover,
+.btnCerrarCarrito:active,
+.btnCerrarCarrito:focus {
+  background-color: transparent;
+  color: white; /*Cuando se acerca el mouse al boton*/
+  border-color: transparent; /*Cuando se acerca el mouse al boton*/
+  outline: none; /*Quita el borde cuando se hace click*/
 }
 .btnVaciarCarrito {
   border-color: transparent;
   background-color: transparent;
+  border: 0px;
+
 }
+.btnVaciarCarrito:hover,
+.btnVaciarCarrito:active,
+.btnVaciarCarrito:focus {
+  background-color: transparent;
+  color: white; /*Cuando se acerca el mouse al boton*/
+  border-color: transparent; /*Cuando se acerca el mouse al boton*/
+  outline: none; /*Quita el borde cuando se hace click*/
+}
+
 
 .imgVaciar {
   background-color: yellow;
