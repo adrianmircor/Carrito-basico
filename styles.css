@@ -63,7 +63,7 @@ body {
     width: 320px;
   }
   .carritoProductos {
-    background-color: rgb(202, 66, 66);
+    background-color: #79bac1;
     width: 100%;
   }
 }
@@ -75,17 +75,21 @@ body {
 }
 
 /*Lista de productos guardados en el carrito*/
+.carritoProductos{
+  padding:0px;
+}
 .row {
   width: 100%; /*Ocupa el 100% del div de su padre*/
   margin: 0px;
 }
 .header-prod-carrito {
   height: 40px;
-  background-color: rgb(32, 168, 202);
+  background-color: #2a7886;
+  
 }
 @media screen and (min-width: 768px) {
   .carritoProductos {
-    background-color: rgb(202, 66, 66);
+    background-color: #79bac1;
     width: 260px;
   }
 }
@@ -160,7 +164,7 @@ body {
 }
 
 .descripProdCarrito {
-  background-color: rgb(168, 168, 12);
+  background-color: white;
 }
 
 @media screen and (max-width: 325px) {
@@ -185,8 +189,8 @@ body {
 }
 
 hr {
-  margin-top: 3px;
-  margin-bottom: 3px;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
 /*card*/
@@ -228,31 +232,48 @@ hr {
 }
 
 .btne {
-  background-color: rgb(53, 182, 21);
   border-color: transparent;
   font-size: 11px;
   border-radius: 20%;
 }
+.btne-add{
+  background-color: rgb(21, 177, 21);
+}
+.btne-decre{
+  background-color: rgb(255, 255, 0)
+}
+.btne-remove{
+  background-color: rgb(199, 18, 18)
+}
 
 /*FOOTER DE CARRITO*/
 .btnPagar {
-  background-color: rgb(100, 178, 230);
+  background-color: rgb(0, 0, 0);
   border-color: transparent;
   border-radius: 20px;
   font-size: 15px;
   margin-top: 8px;
   margin-bottom: 5px;
   width: 100%;
+  color: white;
+  
 }
 
 .btnPagar:hover,
 .btnPagar:active,
 .btnPagar:focus {
-  background-color: rgb(66, 146, 200);
+  background-color: white;
   color: black;
-  border-color: rgb(8, 79, 126);
+  border-color: rgb(49, 47, 47);
 }
 
 p {
   margin: 0px;
+}
+
+.footerPago{
+  background-color: #2a7886;
+}
+span{
+  font-weight: bold;
 }
