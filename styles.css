@@ -233,8 +233,10 @@ hr {
 
 .btne {
   border-color: transparent;
-  font-size: 11px;
+  font-size: 9px;
   border-radius: 20%;
+  padding: 0px;
+  width: 16px;
 }
 .btne-add{
   background-color: rgb(21, 177, 21);
